@@ -15,6 +15,14 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 
-function johnLennonFacts(nusicians) {
-  
+function johnLennonFacts(facts) {
+  var theFacts = []
+
+  var i = 0
+  while (i < facts.length) {
+    theFacts.push(`!!!`)
+    i++
+  }
+
+  return shoutedFacts
 }
