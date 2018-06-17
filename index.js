@@ -20,9 +20,8 @@ function johnLennonFacts(facts) {
 
   var i = 0
   while (i < facts.length) {
-    theFacts.push(`!!!`)
+    theFacts.push(facts[i] + "!!!")
     i++
   }
-
-  return shoutedFacts
+  return theFacts
 }
